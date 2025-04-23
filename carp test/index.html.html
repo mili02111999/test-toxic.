@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cómo saber si soy toxic@?</title>
+    <style>
+        body { font-family: sans-serif; padding: 1em; background: #f4f4f4; }
+        h1 { color: #d63384; }
+        .question { margin-bottom: 1em; }
+        button { background: #0d6efd; color: white; border: none; padding: 0.5em 1em; margin: 0.5em 0.25em; }
+        .result { font-size: 1.2em; font-weight: bold; margin-top: 1em; }
+    </style>
+</head>
+<body>
+    <h1>¿Cómo saber si soy toxic@?</h1>
+    <form id="quizForm">
+<div class="question"><p>1. ¿Qué hacés si tu pareja tarda horas en responder un mensaje?</p><input type="radio" name="q0" id="q0_0" value="0"><label for="q0_0">Le escribo mil veces.</label><br><input type="radio" name="q0" id="q0_1" value="1"><label for="q0_1">Me enojo, pero espero.</label><br><input type="radio" name="q0" id="q0_2" value="2"><label for="q0_2">Me preocupo un poquito.</label><br><input type="radio" name="q0" id="q0_3" value="3"><label for="q0_3">Entiendo, a veces pasa.</label><br></div><div class="question"><p>2. Tu pareja va a salir con amig@s. ¿Cómo reaccionás?</p><input type="radio" name="q1" id="q1_0" value="0"><label for="q1_0">Le digo que mejor se quede.</label><br><input type="radio" name="q1" id="q1_1" value="1"><label for="q1_1">Le pregunto quiénes van.</label><br><input type="radio" name="q1" id="q1_2" value="2"><label for="q1_2">Le digo que se divierta, pero me da cosita.</label><br><input type="radio" name="q1" id="q1_3" value="3"><label for="q1_3">Todo bien, cada quien necesita su espacio.</label><br></div><div class="question"><p>3. ¿Sos de revisar el celular de tu pareja?</p><input type="radio" name="q2" id="q2_0" value="0"><label for="q2_0">Sí, siempre.</label><br><input type="radio" name="q2" id="q2_1" value="1"><label for="q2_1">A veces, si sospecho algo.</label><br><input type="radio" name="q2" id="q2_2" value="2"><label for="q2_2">Solo si me da permiso.</label><br><input type="radio" name="q2" id="q2_3" value="3"><label for="q2_3">No, eso es privado.</label><br></div><div class="question"><p>4. ¿Qué pensás si tu pareja tiene amig@s del sexo opuesto?</p><input type="radio" name="q3" id="q3_0" value="0"><label for="q3_0">No me gusta nada.</label><br><input type="radio" name="q3" id="q3_1" value="1"><label for="q3_1">Solo si no son muy cercan@s.</label><br><input type="radio" name="q3" id="q3_2" value="2"><label for="q3_2">Me cuesta, pero lo acepto.</label><br><input type="radio" name="q3" id="q3_3" value="3"><label for="q3_3">Está bien, la confianza es clave.</label><br></div><div class="question"><p>5. ¿Cómo te expresás cuando algo te molesta en la relación?</p><input type="radio" name="q4" id="q4_0" value="0"><label for="q4_0">Grito o hago escenas.</label><br><input type="radio" name="q4" id="q4_1" value="1"><label for="q4_1">Me lo guardo y me enojo.</label><br><input type="radio" name="q4" id="q4_2" value="2"><label for="q4_2">Lo hablo, pero a veces me cuesta.</label><br><input type="radio" name="q4" id="q4_3" value="3"><label for="q4_3">Lo converso con calma.</label><br></div><div class="question"><p>6. ¿Alguna vez dijiste “si me querés, hacelo”?</p><input type="radio" name="q5" id="q5_0" value="0"><label for="q5_0">Varias veces.</label><br><input type="radio" name="q5" id="q5_1" value="1"><label for="q5_1">Solo en momentos intensos.</label><br><input type="radio" name="q5" id="q5_2" value="2"><label for="q5_2">Una vez y me arrepentí.</label><br><input type="radio" name="q5" id="q5_3" value="3"><label for="q5_3">No, no me gusta manipular.</label><br></div><div class="question"><p>7. Tu pareja quiere un tiempo a solas. ¿Qué hacés?</p><input type="radio" name="q6" id="q6_0" value="0"><label for="q6_0">Me opongo. El amor no se pausa.</label><br><input type="radio" name="q6" id="q6_1" value="1"><label for="q6_1">Insisto un poco.</label><br><input type="radio" name="q6" id="q6_2" value="2"><label for="q6_2">Me cuesta, pero trato de respetarlo.</label><br><input type="radio" name="q6" id="q6_3" value="3"><label for="q6_3">Respeto su decisión.</label><br></div><div class="question"><p>8. ¿Controlás con quién habla tu pareja?</p><input type="radio" name="q7" id="q7_0" value="0"><label for="q7_0">Sí, quiero saber todo.</label><br><input type="radio" name="q7" id="q7_1" value="1"><label for="q7_1">Solo si siento que algo raro pasa.</label><br><input type="radio" name="q7" id="q7_2" value="2"><label for="q7_2">Me da curiosidad, pero no digo nada.</label><br><input type="radio" name="q7" id="q7_3" value="3"><label for="q7_3">No, confío en ella/él.</label><br></div><div class="question"><p>9. ¿Alguna vez decidiste qué podía o no usar tu pareja?</p><input type="radio" name="q8" id="q8_0" value="0"><label for="q8_0">Sí, quiero que se vea bien (según yo).</label><br><input type="radio" name="q8" id="q8_1" value="1"><label for="q8_1">Si algo me incomoda, lo digo.</label><br><input type="radio" name="q8" id="q8_2" value="2"><label for="q8_2">A veces opino, pero dejo que elija.</label><br><input type="radio" name="q8" id="q8_3" value="3"><label for="q8_3">No, su estilo es suyo.</label><br></div><div class="question"><p>10. ¿Qué sentís cuando tu pareja quiere pasar tiempo con otras personas o familia?</p><input type="radio" name="q9" id="q9_0" value="0"><label for="q9_0">Me molesta, quiero que esté conmigo.</label><br><input type="radio" name="q9" id="q9_1" value="1"><label for="q9_1">Me da un poco de celos.</label><br><input type="radio" name="q9" id="q9_2" value="2"><label for="q9_2">Entiendo, aunque a veces lo extraño.</label><br><input type="radio" name="q9" id="q9_3" value="3"><label for="q9_3">Me parece perfecto, todos necesitan su tiempo.</label><br></div>
+        <button type="button" onclick="showResult()">Ver resultado</button>
+        <button type="reset">Reiniciar test</button>
+    </form>
+    <div id="result" class="result"></div>
+    <script>
+        function showResult() {
+            let totalA = 0, totalB = 0, totalC = 0, totalD = 0;
+            for (let i = 0; i < 10; i++) {
+                let selected = document.querySelector(`input[name="q${i}"]:checked`);
+                if (selected) {
+                    if (selected.value == "0") totalA++;
+                    if (selected.value == "1") totalB++;
+                    if (selected.value == "2") totalC++;
+                    if (selected.value == "3") totalD++;
+                }
+            }
+            let resultText = "";
+            if (totalA >= 8) {
+                resultText = "Sos tóxic@ nivel novela turca. Celos, control, drama... ¡poné el freno antes de convertirte en meme!";
+            } else if ((totalA + totalB) >= 4 && (totalA + totalB) <= 7) {
+                resultText = "Tenés celos, pero los controlás. Vas por buen camino, ¡seguí creciendo!";
+            } else {
+                resultText = "Sos más sano que una lechuga cristiana. Relaciones sanas, comunicación, confianza. ¡Te aplaudimos!";
+            }
+            document.getElementById("result").innerText = resultText;
+        }
+    </script>
+</body>
+</html>
